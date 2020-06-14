@@ -1,0 +1,8 @@
+module chatApp{
+	interface chat{
+		void enviar(String s);
+		String recibir();
+		void hacerInterfaz();
+		oneway void shutdown();
+	};
+};
